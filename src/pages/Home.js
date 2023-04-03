@@ -1,6 +1,13 @@
+import Sidebar from '../components/Sidebar'
+import Chat from '../components/Chat';
 function Home() {
     return ( 
-        <h2>Home pages</h2>
+        <div className="home">
+            <div className='container'>
+                <Sidebar/>
+                <Chat/>
+            </div>
+        </div>
      );
 }
 
